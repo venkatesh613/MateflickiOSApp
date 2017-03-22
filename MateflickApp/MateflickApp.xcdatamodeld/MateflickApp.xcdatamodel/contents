@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Connects" representedClassName="Connects" syncable="YES"/>
+    <entity name="Friends" representedClassName="Friends" syncable="YES">
+        <attribute name="friendsName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendsProfilePic" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Groups" representedClassName="Groups" syncable="YES"/>
+    <elements>
+        <element name="Connects" positionX="-36" positionY="9" width="128" height="45"/>
+        <element name="Friends" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Groups" positionX="-54" positionY="-9" width="128" height="45"/>
+    </elements>
 </model>
